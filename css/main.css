@@ -1,0 +1,193 @@
+/*
+    Theme Name : DOM Design
+    CSS version : CSS3
+    Author : Puneeth S
+*/
+
+/*Reset classes*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+/*Reset class ends here*/
+
+
+/*utility class style starts here*/
+
+.page-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*utility class style ends here*/
+
+
+/*sidenav style startys here*/
+
+.sidenav-wrapper {
+    width: 250px;
+    min-height: 100%;
+    background: url('../images/10.png');
+    float: left;
+    background-color: #2F2F2F;
+}
+
+.sidenav__list__active {
+    background: url(../images/bg_menu_act.gif) no-repeat;
+    background-position: right center;
+}
+
+.sidenav {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    margin-top: 10%;
+}
+
+.sidenav__list {
+    width: 100%;
+    padding: 5px 45px;
+    cursor: pointer
+}
+
+.sidenav__list__link {
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px 6px;
+}
+
+.sidenav__list.active {
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px 6px;
+    background: #000001
+}
+
+.logo {
+    display: inline-block;
+    background: url(../images/logo.png) no-repeat;
+    width: 250px;
+    height: 200px;
+}
+
+.sidenav-wrapper__footer__copyright-text {
+    color: #fff;
+}
+
+.sidenav-wrapper__footer {
+    position: absolute;
+    bottom: 12px;
+    font-size: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.sidenav-wrapper__footer__copyright-text__company-name {
+    color: yellow
+}
+
+.sidenav__list__link:hover {
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px 6px;
+    background: #000001
+}
+
+.logo-wrapper {
+    display: block;
+    width: 250px;
+    margin-top: 13px;
+}
+
+.logo-wrapper__logo {
+    display: inline-block;
+    background: url(../images/logo.png) no-repeat center center;
+    width: 250px;
+    height: 247px;
+}
+
+.sidenav__list:hover {
+    background: #000001
+}
+
+.sidenav__list__link.active {
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px 6px;
+    background: #000001
+}
+
+
+/*sidenav style ends here*/
+
+
+/*main content wrapper style starts here*/
+
+.content-wrapper {
+    float: left;
+    width: calc(100% - 250px);
+    min-height: 100%;
+
+    background: url(../images/bg_main.png);
+    background-color: #F8F8F8;
+}
+
+.container-wrapper__heading {
+    font-weight: 600px;
+    color: #424242;
+}
+
+.main-content__heading__sub-heading {
+    border-top: 2px solid #DCBE3E;
+    border-bottom: 2px solid #DCBE3E;
+    margin: 11px 11px 11px 0px;
+    font-size: 26px;
+    padding: 10px 0px;
+}
+
+.main-content {
+    padding-top: 100px;
+    padding-left: 50px;
+    max-width: 682px;
+        min-width: 500px;
+}
+
+.main-content__text {
+    color: #62615F;
+    font-size: 10px;
+}
+
+.main-content__heading-title {
+    font-size: 66px;
+    font-weight: 200;
+    line-height: 70px;
+}
+
+.main-content__heading-title__sub-title {
+    color: #62615F;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/*main container style ends here*/
